@@ -4,6 +4,10 @@ sudo make UNAME=bartendro UPASS=boozey RPASS=rootboozey
 ### packages needed
 git
 python3.6
+hostapd
+dnsmasq
+iptables
+dhcpcd5
 
 /etc/network/interfaces.d/*.cfg
 create wlan1.cfg
@@ -25,3 +29,11 @@ apt-get install firmware-misc-nonfree
 i2c
 spi
 gpio
+
+### setting up wifi host
+https://frillip.com/using-your-raspberry-pi-3-as-a-wifi-access-point-with-hostapd/
+install hostapd dnsmasq
+edit config files
+sudo service hostapd start
+sudo service dnsmasq start
+sudo /etc/init.d/networking restart

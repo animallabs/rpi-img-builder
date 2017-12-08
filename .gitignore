@@ -9,3 +9,5 @@ plugins.txt
 *~
 *.tmp
 *.tar*
+
+Raspbian-stretch-rpix*

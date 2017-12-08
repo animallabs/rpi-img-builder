@@ -1,1 +1,1 @@
-isc-dhcp-client rsyslog wpasupplicant firmware-brcm80211
+isc-dhcp-client rsyslog wpasupplicant firmware-brcm80211 iptables dhcpcd5 git hostapd dnsmasq firmware-misc-nonfree
